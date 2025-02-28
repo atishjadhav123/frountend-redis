@@ -137,7 +137,7 @@ const Profile: React.FC = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {Array.isArray(data) && data.map((user: any) => (
+                        {data?.result?.map((user: any) => (
                             <tr key={user.email} className="text-center border-b">
                                 <td className="p-3 border">
                                     <img src={user.profile} alt={user.name} className="w-12 h-12 rounded-full mx-auto" />

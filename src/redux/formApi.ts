@@ -30,7 +30,7 @@ export interface RegisterUserRequest {
 
 export interface ApiResponse {
     message: string
-    users: User[]
+    result: User[]
 }
 
 
